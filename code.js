@@ -7,7 +7,7 @@ function binarySearch(list, element) {
             return middle; }
         else if (list[middle] < element) {
             left = middle + 1; }
-        else if (arr[middle] > element) {
+        else if (list[middle] > element) {
             right = middle - 1; }
     }
     return -1;
